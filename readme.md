@@ -8,7 +8,7 @@
 ### Using it
 	usage: main.py [-h] [-k KEYWORDS] [-t TOP]
 
-	Most popular purchased courses on Udemy
+	Most popular Udemy courses in your account
 
 	optional arguments:
 	  -h, --help            		show this help message and exit

@@ -121,7 +121,7 @@ def main(*args):
         if max_temp['students'] > -1:
             Saved_courses['students'].append(max_temp['students'])
             Saved_courses['title'].append(max_temp['title'])
-            Saved_courses['url'].append('https://www.udemy.com/' + max_temp['url'])
+            Saved_courses['url'].append('https://www.udemy.com' + max_temp['url'])
     
     for i in range(len(Saved_courses['students'])):
         print(f"\nStudents: {Saved_courses['students'][i]}\n{Saved_courses['title'][i]}\n{Saved_courses['url'][i]}\n")
